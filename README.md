@@ -19,7 +19,7 @@ At core, bundle-sells share many similarities with cross-sells. Compared to cros
 * are easier to discover; and
 * convert immediately.
 
-However, bundle-sells _must_ be used sparingly -- offerring many and/or unrelated options _can_ have a negative impact on conversion. Use bundle-sells to offer relevant, helpful recommendations. If in doubt, look for strong, data-driven evidence to support your decisions.
+However, bundle-sells _must_ be used sparingly -- offerring many and/or unrelated options may have a negative impact on conversion. Use bundle-sells to offer **relevant**, **helpful** recommendations. If in doubt, look for strong, **data-driven evidence** to support your decisions.
 
 ### Important
 
