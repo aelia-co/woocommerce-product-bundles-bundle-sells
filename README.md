@@ -1,6 +1,10 @@
 # WooCommerce Product Bundles - Bundle-Sells
 
+### What's This?
+
 Mini-extension for [WooCommerce Product Bundles](https://woocommerce.com/products/product-bundles/) that allows you to add "Frequently Bought Together" recommendations in any WooCommerce product page.
+
+### Using Bundle-Sells
 
 Bundle-Sells can be added to any product by navigating to **Product Data > Linked Products** tab and adding some products to the "Bundle-Sells" box.
 
@@ -16,5 +20,7 @@ At core, bundle-sells share many similarities with cross-sells. Compared to cros
 * convert immediately.
 
 However, bundle-sells _must_ be used sparingly -- offerring many and/or unrelated options _can_ have a negative impact on conversion. Use bundle-sells to offer relevant, helpful recommendations. If in doubt, look for strong, data-driven evidence to support your decisions.
+
+### Important
 
 Requires WooCommerce Product Bundles 5.6+.
