@@ -1,0 +1,4 @@
+*** WooCommerce Product Bundles - Bundle Sells ***
+
+2017.11.11 - version 1.0.0
+* Initial Release.

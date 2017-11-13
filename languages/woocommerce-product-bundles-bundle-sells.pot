@@ -1,0 +1,68 @@
+# Copyright (C) 2017 SomewhereWarm
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Bundles - Bundle-Sells 1.0.0\n"
+"Report-Msgid-Bugs-To: support@somewherewarm.gr\n"
+"POT-Creation-Date: 2017-11-13 16:21:14+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/admin/class-wc-pb-bs-admin.php:54
+msgid "Bundle-sells"
+msgstr ""
+
+#: includes/admin/class-wc-pb-bs-admin.php:55
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: includes/admin/class-wc-pb-bs-admin.php:71
+msgid ""
+"Bundle-sells are optional products that can be selected and added to the "
+"cart along with this product."
+msgstr ""
+
+#: includes/admin/class-wc-pb-bs-admin.php:78
+msgid "Bundle-Sells title"
+msgstr ""
+
+#: includes/admin/class-wc-pb-bs-admin.php:79
+msgid "Text to display above the Bundle-Sells section."
+msgstr ""
+
+#: includes/admin/class-wc-pb-bs-admin.php:80
+msgid "e.g. \"Frequently Bought Together\""
+msgstr ""
+
+#: woocommerce-product-bundles-bundle-sells.php:124
+msgid ""
+"<strong>WooCommerce Product Bundles &ndash; Bundle-Sells</strong> requires "
+"Product Bundles <strong>%s</strong> or higher."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Product Bundles - Bundle-Sells"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://woocommerce.com/products/product-bundles/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Add \"Frequently Bought Together\" recommendations to your WooCommerce "
+"product pages. Powered by WooCommerce Product Bundles."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SomewhereWarm"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://somewherewarm.gr/"
+msgstr ""
