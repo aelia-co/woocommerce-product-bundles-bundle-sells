@@ -15,3 +15,6 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
+
+?>
+<input class="bundled_qty" type="hidden" name="<?php echo $input_name; ?>" value="1" />
