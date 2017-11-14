@@ -49,8 +49,8 @@ class WC_PB_BS_Admin {
 		global $product_object;
 
 		?>
-		<div class="options_group">
-			<p class="form-field hide_if_grouped hide_if_external hide_if_bundle">
+		<div class="options_group hide_if_grouped hide_if_external hide_if_bundle">
+			<p class="form-field ">
 				<label for="crosssell_ids"><?php _e( 'Bundle-sells', 'woocommerce-product-bundles-bundle-sells' ); ?></label>
 				<select class="wc-product-search" multiple="multiple" style="width: 50%;" id="bundle_sell_ids" name="bundle_sell_ids[]" data-placeholder="<?php esc_attr_e( 'Search for a product&hellip;', 'woocommerce' ); ?>" data-action="woocommerce_json_search_bundle_sells" data-exclude="<?php echo intval( $product_object->get_id() ); ?>" data-limit="100">
 					<?php
@@ -75,12 +75,11 @@ class WC_PB_BS_Admin {
 				woocommerce_wp_textarea_input( array(
 					'id'            => 'wc_pb_bundle_sells_title',
 					'value'         => esc_html( WC_PB_BS_Product::get_bundle_sells_title( $product_object, 'edit' ) ),
-					'label'         => __( 'Bundle-Sells title', 'woocommerce-product-bundles-bundle-sells' ),
+					'label'         => __( 'Bundle-sells title', 'woocommerce-product-bundles-bundle-sells' ),
 					'description'   => __( 'Text to display above the Bundle-Sells section.', 'woocommerce-product-bundles-bundle-sells' ),
 					'placeholder'   => __( 'e.g. "Frequently Bought Together"', 'woocommerce-product-bundles-bundle-sells' ),
 					'desc_tip'      => true
 				) );
-
 			?>
 		</div>
 		<?php
