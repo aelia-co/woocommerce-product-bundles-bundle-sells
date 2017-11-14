@@ -8,7 +8,7 @@ Mini-extension for [WooCommerce Product Bundles](https://woocommerce.com/product
 
 Bundle-sells can be added to any product by navigating to **Product Data > Linked Products** tab and adding some products to the "Bundle-sells" box.
 
-<img width="1049" alt="Adding Bundle-Sells" src="https://user-images.githubusercontent.com/1783726/32737971-2eb3af40-c8a4-11e7-96e2-035f5879683d.png">
+<img width="1049" alt="Adding Bundle-Sells" src="https://user-images.githubusercontent.com/1783726/32774341-a6fed64c-c934-11e7-85da-141c542c7b39.png">
 
 Bundle-sells are displayed above the add-to-cart button in single product pages. They can be selected and added to the cart along with the viewed product:
 
