@@ -152,7 +152,14 @@ class WC_PB_BS_Cart {
 	 */
 	public static function bundle_sells_add_to_cart( $parent_cart_item_key, $parent_id, $parent_quantity, $variation_id, $variation, $cart_item_data ) {
 
-		$bundle_sells_configuration = self::get_posted_bundle_sells_configuration( WC()->cart->cart_contents[ $parent_cart_item_key ][ 'data' ] );
+		// Only proceed if the product was added to the cart via a form or query string.
+		if ( absint( $_REQUEST[ 'add-to-cart' ] ) !== absint( $parent_id ) ) {
+			return;
+		}
+
+		$product = $variation_id > 0 ? wc_get_product( $parent_id ) : WC()->cart->cart_contents[ $parent_cart_item_key ][ 'data' ];
+
+		$bundle_sells_configuration = self::get_posted_bundle_sells_configuration( $product );
 
 		if ( ! empty( $bundle_sells_configuration ) ) {
 			foreach ( $bundle_sells_configuration as $bundle_sell_configuration ) {
