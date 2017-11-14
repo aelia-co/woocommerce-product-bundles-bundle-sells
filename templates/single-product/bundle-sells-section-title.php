@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 ?>
 
-<div class="bundle-sells-title">
+<div class="bundle_sells_title">
 	<h3>
 		<?php
 			echo $title;
