@@ -1,4 +1,8 @@
 *** WooCommerce Product Bundles - Bundle Sells ***
 
+2017.11.14 - version 1.0.1
+* Fix - Remember bundle-sells' checkbox state after adding the parent product to the cart.
+* Fix - Hide "Bundle-sells title" admin option in Bundle-type products.
+
 2017.11.11 - version 1.0.0
 * Initial Release.
