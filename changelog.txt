@@ -4,7 +4,7 @@
 * Feature - Offer simple Subscription products as Bundle-sells. Handy.
 
 2017.11.14 - version 1.0.2
-* Fix - Variable products support.
+* Fix - Variable products support: Bundle-sells added to Variable products are now working as expected.
 * Fix - Evaluate bundle-sells only for parent products added to the cart via a form or query string.
 * Tweak - Bundle-sells single-product styles.
 
