@@ -1,5 +1,8 @@
 *** WooCommerce Product Bundles - Bundle Sells ***
 
+2017.11.20 - version 1.0.3
+* Feature - Offer simple Subscription products as Bundle-sells. Handy.
+
 2017.11.14 - version 1.0.2
 * Fix - Variable products support.
 * Fix - Evaluate bundle-sells only for parent products added to the cart via a form or query string.

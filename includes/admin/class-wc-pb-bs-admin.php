@@ -142,7 +142,7 @@ class WC_PB_BS_Admin {
 
 				$product = wc_get_product( $product_id );
 
-				if ( is_object( $product ) && $product->is_type( 'simple' ) ) {
+				if ( is_object( $product ) && $product->is_type( array( 'simple', 'subscription' ) ) ) {
 					$search_results_filtered[ $product_id ] = $product_title;
 				}
 			}
