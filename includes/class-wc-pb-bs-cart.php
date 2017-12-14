@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Cart-related functions and filters.
  *
  * @class    WC_PB_BS_Cart
- * @version  1.0.0
+ * @version  1.0.4
  */
 class WC_PB_BS_Cart {
 
