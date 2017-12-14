@@ -153,7 +153,7 @@ class WC_PB_BS_Cart {
 	public static function bundle_sells_add_to_cart( $parent_cart_item_key, $parent_id, $parent_quantity, $variation_id, $variation, $cart_item_data ) {
 
 		// Only proceed if the product was added to the cart via a form or query string.
-		if ( absint( $_REQUEST[ 'add-to-cart' ] ) !== absint( $parent_id ) ) {
+		if ( empty( $_REQUEST[ 'add-to-cart' ] ) || absint( $_REQUEST[ 'add-to-cart' ] ) !== absint( $parent_id ) ) {
 			return;
 		}
 
