@@ -3,7 +3,7 @@
 * Plugin Name: WooCommerce Product Bundles - Bundle-Sells
 * Plugin URI: http://woocommerce.com/products/product-bundles/
 * Description: Add "Frequently Bought Together" recommendations to your WooCommerce product pages. Powered by WooCommerce Product Bundles.
-* Version: 1.0.4
+* Version: 1.0.5
 * Author: SomewhereWarm
 * Author URI: http://somewherewarm.gr/
 *
@@ -14,9 +14,9 @@
 * Tested up to: 4.9
 *
 * WC requires at least: 3.0
-* WC tested up to: 3.2
+* WC tested up to: 3.3
 *
-* Copyright: © 2017 SomewhereWarm SMPC.
+* Copyright: © 2018 SomewhereWarm SMPC.
 * License: GNU General Public License v3.0
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -30,7 +30,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Main plugin class.
  *
  * @class    WC_PB_Bundle_Sells
- * @version  1.0.4
+ * @version  1.0.5
  */
 class WC_PB_Bundle_Sells {
 
@@ -38,7 +38,7 @@ class WC_PB_Bundle_Sells {
 	 * Version.
 	 * @var string
 	 */
-	public static $version = '1.0.4';
+	public static $version = '1.0.5';
 
 	/**
 	 * Required PB version.
