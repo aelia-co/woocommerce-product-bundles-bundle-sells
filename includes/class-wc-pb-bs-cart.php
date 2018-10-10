@@ -159,7 +159,15 @@ class WC_PB_BS_Cart {
 
 		$product = $variation_id > 0 ? wc_get_product( $parent_id ) : WC()->cart->cart_contents[ $parent_cart_item_key ][ 'data' ];
 
-		$bundle_sells_configuration = self::get_posted_bundle_sells_configuration( $product );
+		$bundle_sells_configuration = apply_filters('wc_pb_bundle_sell_add_to_cart_configuration',
+			self::get_posted_bundle_sells_configuration( $product ),
+			$parent_cart_item_key,
+			$parent_id,
+			$parent_quantity,
+			$variation_id,
+			$variation,
+			$cart_item_data
+		);
 
 		if ( ! empty( $bundle_sells_configuration ) ) {
 			foreach ( $bundle_sells_configuration as $bundle_sell_configuration ) {
